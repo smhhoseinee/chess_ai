@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         Game game = new Game(new Agent(Side.WHITE), new RandomPlayer(Side.BLACK), GameVariation.normal);
+        System.out.println("hello");
         System.out.println(game.play());
 //        Board board = new Board();
 //        board.loadFromFen("3k4/8/8/8/8/3q4/2P5/2K5 w KQkq - 0 1");

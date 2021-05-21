@@ -26,7 +26,8 @@ public class Agent extends Player {
         int bestMoveValue = Integer.MIN_VALUE;
         for (Move move : moves) {
             if (board.doMove(move)) {
-                int temp = min(board.clone(), 1);
+//                int temp = min(board.clone(), 1);
+                int temp = minAlphaBetaPrune(board.clone(), 1, Integer.MIN_VALUE ,Integer.MAX_VALUE );
                 if (temp > bestMoveValue) {
                     bestMove = move;
                     bestMoveValue = temp;
@@ -72,6 +73,53 @@ public class Agent extends Player {
                 }
                 bestValue = Integer.min(max(board.clone(), depth + 1), bestValue);
                 board.undoMove();
+            }
+        }
+        return bestValue;
+    }
+
+
+    public int maxAlphaBetaPrune(Board board, int depth, int alpha, int beta) {
+        if (depth == maxDepth) {
+            return eval(board);
+        }
+        List<Move> moves = board.legalMoves();
+        int bestValue = Integer.MIN_VALUE;
+        for (Move move : moves) {
+            if (board.doMove(move)) {
+                if (board.isMated()) {
+                    return Integer.MAX_VALUE;
+                }
+                bestValue = Integer.max(minAlphaBetaPrune(board.clone(), depth + 1, alpha, beta), bestValue);
+                board.undoMove();
+
+                // alpha beta prune
+                if (bestValue >= beta) return bestValue;
+                alpha = Integer.max(alpha, bestValue);
+
+
+            }
+        }
+        return bestValue;
+    }
+
+    public int minAlphaBetaPrune(Board board, int depth, int alpha, int beta) {
+        if (depth == maxDepth) {
+            return eval(board);
+        }
+        List<Move> moves = board.legalMoves();
+        int bestValue = Integer.MAX_VALUE;
+        for (Move move : moves) {
+            if (board.doMove(move)) {
+                if (board.isMated()) {
+                    return Integer.MIN_VALUE;
+                }
+                bestValue = Integer.min(maxAlphaBetaPrune(board.clone(), depth + 1, alpha, beta), bestValue);
+                board.undoMove();
+
+                // alpha beta prune
+                if (bestValue <= alpha) return bestValue;
+                beta = Integer.min(beta, bestValue);
             }
         }
         return bestValue;
