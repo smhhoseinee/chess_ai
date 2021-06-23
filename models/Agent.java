@@ -16,6 +16,9 @@ public class Agent extends Player {
     }
 
     public int eval(Board board) {
+
+        //Eval(s) = w1 f1(s) + w2 f2(s) + … + wnfn(s)
+
         return 0;
     }
 
