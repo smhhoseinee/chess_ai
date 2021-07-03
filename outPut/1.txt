@@ -1,0 +1,275 @@
+4:49:49 PM: Executing task 'Main.main()'...
+
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :Main.main()
+nnnnknnn
+pppppppp
+........
+........
+........
+........
+PPPPPPPP
+.Q.QK.Q.
+Side: WHITE
+Get Fen :
+nnnnknnn/pppppppp/8/8/8/8/PPPPPPPP/1Q1QK1Q1 w - - 0 1
+
+white move = c2c3
+nnnnknnn
+pppppppp
+........
+........
+........
+..P.....
+PP.PPPPP
+.Q.QK.Q.
+Side: BLACK
+black move = c8b6
+nn.nknnn
+pppppppp
+.n......
+........
+........
+..P.....
+PP.PPPPP
+.Q.QK.Q.
+Side: WHITE
+white move = d1b3
+nn.nknnn
+pppppppp
+.n......
+........
+........
+.QP.....
+PP.PPPPP
+.Q..K.Q.
+Side: BLACK
+black move = f7f6
+nn.nknnn
+ppppp.pp
+.n...p..
+........
+........
+.QP.....
+PP.PPPPP
+.Q..K.Q.
+Side: WHITE
+white move = b3g8
+nn.nknQn
+ppppp.pp
+.n...p..
+........
+........
+..P.....
+PP.PPPPP
+.Q..K.Q.
+Side: BLACK
+black move = h8f7
+nn.nknQ.
+pppppnpp
+.n...p..
+........
+........
+..P.....
+PP.PPPPP
+.Q..K.Q.
+Side: WHITE
+white move = g8g7
+nn.nkn..
+pppppnQp
+.n...p..
+........
+........
+..P.....
+PP.PPPPP
+.Q..K.Q.
+Side: BLACK
+black move = b6d5
+nn.nkn..
+pppppnQp
+.....p..
+...n....
+........
+..P.....
+PP.PPPPP
+.Q..K.Q.
+Side: WHITE
+white move = f2f3
+nn.nkn..
+pppppnQp
+.....p..
+...n....
+........
+..P..P..
+PP.PP.PP
+.Q..K.Q.
+Side: BLACK
+black move = d5b6
+nn.nkn..
+pppppnQp
+.n...p..
+........
+........
+..P..P..
+PP.PP.PP
+.Q..K.Q.
+Side: WHITE
+white move = b2b4
+nn.nkn..
+pppppnQp
+.n...p..
+........
+.P......
+..P..P..
+P..PP.PP
+.Q..K.Q.
+Side: BLACK
+black move = d8c6
+nn..kn..
+pppppnQp
+.nn..p..
+........
+.P......
+..P..P..
+P..PP.PP
+.Q..K.Q.
+Side: WHITE
+white move = b4b5
+nn..kn..
+pppppnQp
+.nn..p..
+.P......
+........
+..P..P..
+P..PP.PP
+.Q..K.Q.
+Side: BLACK
+black move = f7d8
+nn.nkn..
+ppppp.Qp
+.nn..p..
+.P......
+........
+..P..P..
+P..PP.PP
+.Q..K.Q.
+Side: WHITE
+white move = b5c6
+nn.nkn..
+ppppp.Qp
+.nP..p..
+........
+........
+..P..P..
+P..PP.PP
+.Q..K.Q.
+Side: BLACK
+black move = d8c6
+nn..kn..
+ppppp.Qp
+.nn..p..
+........
+........
+..P..P..
+P..PP.PP
+.Q..K.Q.
+Side: WHITE
+white move = b1e4
+nn..kn..
+ppppp.Qp
+.nn..p..
+........
+....Q...
+..P..P..
+P..PP.PP
+....K.Q.
+Side: BLACK
+black move = b6a4
+nn..kn..
+ppppp.Qp
+..n..p..
+........
+n...Q...
+..P..P..
+P..PP.PP
+....K.Q.
+Side: WHITE
+white move = g1a7
+nn..kn..
+Qpppp.Qp
+..n..p..
+........
+n...Q...
+..P..P..
+P..PP.PP
+....K...
+Side: BLACK
+black move = b7b5
+nn..kn..
+Q.ppp.Qp
+..n..p..
+.p......
+n...Q...
+..P..P..
+P..PP.PP
+....K...
+Side: WHITE
+white move = a7a4
+nn..kn..
+..ppp.Qp
+..n..p..
+.p......
+Q...Q...
+..P..P..
+P..PP.PP
+....K...
+Side: BLACK
+black move = c6b4
+nn..kn..
+..ppp.Qp
+.....p..
+.p......
+Qn..Q...
+..P..P..
+P..PP.PP
+....K...
+Side: WHITE
+white move = a4b4
+nn..kn..
+..ppp.Qp
+.....p..
+.p......
+.Q..Q...
+..P..P..
+P..PP.PP
+....K...
+Side: BLACK
+black move = c7c6
+nn..kn..
+...pp.Qp
+..p..p..
+.p......
+.Q..Q...
+..P..P..
+P..PP.PP
+....K...
+Side: WHITE
+white move = b4e7
+nn..kn..
+...pQ.Qp
+..p..p..
+.p......
+....Q...
+..P..P..
+P..PP.PP
+....K...
+Side: BLACK
+number of Moves =13
+Player{color=WHITE}
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 2 executed
+4:49:50 PM: Task execution finished 'Main.main()'.

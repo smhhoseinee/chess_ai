@@ -19,33 +19,48 @@ public class Game {
 
     public Player play() {
         System.out.println(board);
+        NodeEvalFunctions.valueOfPieces(board);
+
+        System.out.println("Get Fen :");
+        System.out.println(board.getFen());
+        System.out.println();
+
+        int MoveCounter = 0;
+
         Move whiteMove, blackMove;
         while (true) {
             whiteMove = whitePlayer.play(board.clone());
             if (whiteMove == null || !board.doMove(whiteMove)) {
+                System.out.println("number of Moves =" + MoveCounter);
                 return blackPlayer;
-            }else{
+            } else {
                 System.out.println("white move = " + whiteMove);
+                MoveCounter++;
             }
             System.out.println(board);
             if (board.isMated()) {
+                System.out.println("number of Moves =" + MoveCounter);
                 return whitePlayer;
             }
-            if (board.isDraw()){
+            if (board.isDraw()) {
+                System.out.println("number of Moves =" + MoveCounter);
                 System.out.println("black stale mate :" + board.isStaleMate());
                 return null;
             }
             blackMove = blackPlayer.play(board.clone());
             if (blackMove == null || !board.doMove(blackMove)) {
+                System.out.println("number of Moves =" + MoveCounter);
                 return whitePlayer;
-            }else{
+            } else {
                 System.out.println("black move = " + blackMove);
             }
             System.out.println(board);
             if (board.isMated()) {
+                System.out.println("number of Moves =" + MoveCounter);
                 return blackPlayer;
             }
-            if (board.isDraw()){
+            if (board.isDraw()) {
+                System.out.println("number of Moves =" + MoveCounter);
                 System.out.println("white stale mate :" + board.isStaleMate());
                 return null;
             }

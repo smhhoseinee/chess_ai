@@ -1,0 +1,295 @@
+5:06:07 PM: Executing task 'Main.main()'...
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :Main.main()
+nnnnknnn
+pppppppp
+........
+........
+........
+........
+PPPPPPPP
+.Q.QK.Q.
+Side: WHITE
+Get Fen :
+nnnnknnn/pppppppp/8/8/8/8/PPPPPPPP/1Q1QK1Q1 w - - 0 1
+
+white move = c2c3
+nnnnknnn
+pppppppp
+........
+........
+........
+..P.....
+PP.PPPPP
+.Q.QK.Q.
+Side: BLACK
+black move = g7g5
+nnnnknnn
+pppppp.p
+........
+......p.
+........
+..P.....
+PP.PPPPP
+.Q.QK.Q.
+Side: WHITE
+white move = f2f3
+nnnnknnn
+pppppp.p
+........
+......p.
+........
+..P..P..
+PP.PP.PP
+.Q.QK.Q.
+Side: BLACK
+black move = h7h6
+nnnnknnn
+pppppp..
+.......p
+......p.
+........
+..P..P..
+PP.PP.PP
+.Q.QK.Q.
+Side: WHITE
+white move = b1f5
+nnnnknnn
+pppppp..
+.......p
+.....Qp.
+........
+..P..P..
+PP.PP.PP
+...QK.Q.
+Side: BLACK
+black move = c8b6
+nn.nknnn
+pppppp..
+.n.....p
+.....Qp.
+........
+..P..P..
+PP.PP.PP
+...QK.Q.
+Side: WHITE
+white move = g1d4
+nn.nknnn
+pppppp..
+.n.....p
+.....Qp.
+...Q....
+..P..P..
+PP.PP.PP
+...QK...
+Side: BLACK
+black move = g8f6
+nn.nkn.n
+pppppp..
+.n...n.p
+.....Qp.
+...Q....
+..P..P..
+PP.PP.PP
+...QK...
+Side: WHITE
+white move = d4e5
+nn.nkn.n
+pppppp..
+.n...n.p
+....QQp.
+........
+..P..P..
+PP.PP.PP
+...QK...
+Side: BLACK
+black move = c7c6
+nn.nkn.n
+pp.ppp..
+.np..n.p
+....QQp.
+........
+..P..P..
+PP.PP.PP
+...QK...
+Side: WHITE
+white move = d1b3
+nn.nkn.n
+pp.ppp..
+.np..n.p
+....QQp.
+........
+.QP..P..
+PP.PP.PP
+....K...
+Side: BLACK
+black move = d7d5
+nn.nkn.n
+pp..pp..
+.np..n.p
+...pQQp.
+........
+.QP..P..
+PP.PP.PP
+....K...
+Side: WHITE
+white move = e5b8
+nQ.nkn.n
+pp..pp..
+.np..n.p
+...p.Qp.
+........
+.QP..P..
+PP.PP.PP
+....K...
+Side: BLACK
+black move = a7a6
+nQ.nkn.n
+.p..pp..
+pnp..n.p
+...p.Qp.
+........
+.QP..P..
+PP.PP.PP
+....K...
+Side: WHITE
+white move = e2e4
+nQ.nkn.n
+.p..pp..
+pnp..n.p
+...p.Qp.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: BLACK
+black move = e7e6
+nQ.nkn.n
+.p...p..
+pnp.pn.p
+...p.Qp.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: WHITE
+white move = f5f6
+nQ.nkn.n
+.p...p..
+pnp.pQ.p
+...p..p.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: BLACK
+black move = f8d7
+nQ.nk..n
+.p.n.p..
+pnp.pQ.p
+...p..p.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: WHITE
+white move = b8a8
+Q..nk..n
+.p.n.p..
+pnp.pQ.p
+...p..p.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: BLACK
+black move = b6c8
+Q.nnk..n
+.p.n.p..
+p.p.pQ.p
+...p..p.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: WHITE
+white move = f6d8
+Q.nQk..n
+.p.n.p..
+p.p.p..p
+...p..p.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: BLACK
+black move = e8d8
+Q.nk...n
+.p.n.p..
+p.p.p..p
+...p..p.
+....P...
+.QP..P..
+PP.P..PP
+....K...
+Side: WHITE
+white move = b3b7
+Q.nk...n
+.Q.n.p..
+p.p.p..p
+...p..p.
+....P...
+..P..P..
+PP.P..PP
+....K...
+Side: BLACK
+black move = d7e5
+Q.nk...n
+.Q...p..
+p.p.p..p
+...pn.p.
+....P...
+..P..P..
+PP.P..PP
+....K...
+Side: WHITE
+white move = b7c8
+Q.Qk...n
+.....p..
+p.p.p..p
+...pn.p.
+....P...
+..P..P..
+PP.P..PP
+....K...
+Side: BLACK
+black move = d8e7
+Q.Q....n
+....kp..
+p.p.p..p
+...pn.p.
+....P...
+..P..P..
+PP.P..PP
+....K...
+Side: WHITE
+white move = c8d8
+Q..Q...n
+....kp..
+p.p.p..p
+...pn.p.
+....P...
+..P..P..
+PP.P..PP
+....K...
+Side: BLACK
+number of Moves =14
+Player{color=WHITE}
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+5:06:08 PM: Task execution finished 'Main.main()'.

@@ -1,0 +1,175 @@
+5:18:29 PM: Executing task 'Main.main()'...
+
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :Main.main()
+nnnnknnn
+pppppppp
+........
+........
+........
+........
+PPPPPPPP
+.Q.QK.Q.
+Side: WHITE
+Get Fen :
+nnnnknnn/pppppppp/8/8/8/8/PPPPPPPP/1Q1QK1Q1 w - - 0 1
+
+white move = c2c3
+nnnnknnn
+pppppppp
+........
+........
+........
+..P.....
+PP.PPPPP
+.Q.QK.Q.
+Side: BLACK
+black move = b7b5
+nnnnknnn
+p.pppppp
+........
+.p......
+........
+..P.....
+PP.PPPPP
+.Q.QK.Q.
+Side: WHITE
+white move = a2a4
+nnnnknnn
+p.pppppp
+........
+.p......
+P.......
+..P.....
+.P.PPPPP
+.Q.QK.Q.
+Side: BLACK
+black move = f7f5
+nnnnknnn
+p.ppp.pp
+........
+.p...p..
+P.......
+..P.....
+.P.PPPPP
+.Q.QK.Q.
+Side: WHITE
+white move = f2f3
+nnnnknnn
+p.ppp.pp
+........
+.p...p..
+P.......
+..P..P..
+.P.PP.PP
+.Q.QK.Q.
+Side: BLACK
+black move = d8c6
+nnn.knnn
+p.ppp.pp
+..n.....
+.p...p..
+P.......
+..P..P..
+.P.PP.PP
+.Q.QK.Q.
+Side: WHITE
+white move = b1a2
+nnn.knnn
+p.ppp.pp
+..n.....
+.p...p..
+P.......
+..P..P..
+QP.PP.PP
+...QK.Q.
+Side: BLACK
+black move = b5b4
+nnn.knnn
+p.ppp.pp
+..n.....
+.....p..
+Pp......
+..P..P..
+QP.PP.PP
+...QK.Q.
+Side: WHITE
+white move = a2g8
+nnn.knQn
+p.ppp.pp
+..n.....
+.....p..
+Pp......
+..P..P..
+.P.PP.PP
+...QK.Q.
+Side: BLACK
+black move = c6e5
+nnn.knQn
+p.ppp.pp
+........
+....np..
+Pp......
+..P..P..
+.P.PP.PP
+...QK.Q.
+Side: WHITE
+white move = d1b1
+nnn.knQn
+p.ppp.pp
+........
+....np..
+Pp......
+..P..P..
+.P.PP.PP
+.Q..K.Q.
+Side: BLACK
+black move = a7a5
+nnn.knQn
+..ppp.pp
+........
+p...np..
+Pp......
+..P..P..
+.P.PP.PP
+.Q..K.Q.
+Side: WHITE
+white move = b1f5
+nnn.knQn
+..ppp.pp
+........
+p...nQ..
+Pp......
+..P..P..
+.P.PP.PP
+....K.Q.
+Side: BLACK
+black move = d7d6
+nnn.knQn
+..p.p.pp
+...p....
+p...nQ..
+Pp......
+..P..P..
+.P.PP.PP
+....K.Q.
+Side: WHITE
+white move = f5c8
+nnQ.knQn
+..p.p.pp
+...p....
+p...n...
+Pp......
+..P..P..
+.P.PP.PP
+....K.Q.
+Side: BLACK
+number of Moves =8
+Player{color=WHITE}
+
+BUILD SUCCESSFUL in 4s
+2 actionable tasks: 2 executed
+5:18:34 PM: Task execution finished 'Main.main()'.
